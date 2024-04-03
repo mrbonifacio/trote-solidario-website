@@ -1,0 +1,89 @@
+/* estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* estilo para o cabeçalho */
+header {
+  background-color: #fad1aa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* Adicionando fundo branco para o container */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adicionando sombra para o container */
+  border-radius: 5px; /* Adicionando borda arredondada ao container */
+}
+
+/* novo modelo de navegação horizontal */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center; /* Centralizando os itens da lista */
+}
+
+nav ul li {
+  display: inline-block; /* Alterando para display inline-block para garantir que os itens fiquem na horizontal */
+  margin-right: 10px; /* Adicionando margem direita entre os itens */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Removendo a margem direita do último item */
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px; /* Aumentando o espaço interno para melhorar a usabilidade */
+  border-radius: 5px; /* Adicionando borda arredondada aos links */
+  background-color: rgb(216, 175, 98); /* Adicionando a cor de fundo */
+  transition: background-color 0.3s; /* Adicionando transição suave para a mudança de cor de fundo */
+}
+
+nav ul li a:hover {
+  background-color: #e66d6d83; /* Mudando a cor de fundo ao passar o mouse */
+}
+
+/* estilo para o conteúdo */
+.container {
+  margin-top: 10px;
+}
+
+.capaSite {
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.logoHeader {
+  width: 200px;
+  height: 60px;
+}
+
+/* Estilos para o texto */
+.texto-container p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.curso-lista {
+  font-weight: bold;
+}
+
+.topicos-container {
+  margin-top: 20px;
+}
+
+.topicos-container p {
+  margin-left: 20px;
+}
+
+.topicos-container span {
+  font-weight: bold;
+}
