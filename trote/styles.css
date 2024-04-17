@@ -1,6 +1,7 @@
 /* estilo geral */
 body {
   font-family: Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
 }
@@ -94,30 +95,60 @@ nav ul li a:hover {
   text-align: center;
 }
 .table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-.th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+.th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
 }
 
 .th {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
 }
 
 th {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+.alert {
+  border: 2px solid #ffc107; /* Cor da borda */
+  background-color: #fff3cd; /* Cor do fundo */
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 5px; /* Borda arredondada */
+  margin-bottom: 15px; /* Margem inferior */
+}
+
+.alert strong {
+  color: red;
+}
+
+.amarelo {
+  background-color: yellow;
+}
+.laranja {
+  background-color: orange;
+}
+.roxo {
+  background-color: purple;
+}
+.verde {
+  background-color: green;
+}
+.vermelho {
+  background-color: red;
 }
