@@ -167,3 +167,17 @@ th {
 h2{
   text-align: center;
 }
+.logo {
+  width: 150px;
+  height: 80px;
+  float: right;
+}
+/* Estilo para a imagem da capa do site */
+.capaSite {
+  width: 50%; /* Faz a imagem ocupar 100% da largura do seu contêiner */
+  max-width: 800px; /* Define uma largura máxima para a imagem */
+  display: block; /* Faz a imagem se comportar como um bloco */
+  margin: 20px auto; /* Centraliza a imagem horizontalmente e adiciona uma margem de 20px acima e abaixo */
+  border-radius: 10px; /* Adiciona uma borda arredondada à imagem */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra à imagem */
+}
