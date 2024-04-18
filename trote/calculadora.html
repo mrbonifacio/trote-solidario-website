@@ -4,14 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trote Solidário</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="calculadora.css" />
-    <link rel="icon" type="image/png" href="./img/unidos.png" /> <!-- Adicionando o ícone da página -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/styles-class.css" />
+    <link rel="stylesheet" href="./styles/calculadora.css" />
+    <link rel="icon" type="image/png" href="./img/unidos.png" />
+    <!-- Adicionando o ícone da página -->
   </head>
   <body>
     <header>
-        <img class="logoHeader" src="img/logo_trote.webp" />
-        <nav>
+      <img class="logoHeader" src="img/logo_trote.webp" />
+      <nav>
         <ul>
           <li><a href="index.html">Principal</a></li>
           <li><a href="introducao.html">Introdução</a></li>
@@ -35,28 +37,28 @@
             <button onclick="appendValue('8')">8</button>
             <button onclick="appendValue('9')">9</button>
             <button onclick="appendValue('/')">/</button>
-    
+
             <button onclick="appendValue('4')">4</button>
             <button onclick="appendValue('5')">5</button>
             <button onclick="appendValue('6')">6</button>
             <button onclick="appendValue('*')">*</button>
-    
+
             <button onclick="appendValue('1')">1</button>
             <button onclick="appendValue('2')">2</button>
             <button onclick="appendValue('3')">3</button>
             <button onclick="appendValue('-')">-</button>
-    
-            <button onclick="appendValue('0')">0</button> 
+
+            <button onclick="appendValue('0')">0</button>
             <button onclick="appendValue('.')">.</button>
             <button onclick="clearDisplay()">C</button>
             <button onclick="appendValue('+')">+</button>
-    
+
             <button onclick="calculate()">=</button>
           </div>
         </div>
       </div>
-    
-      <script src="/scripts/calculadora.js"></script>
+
+      <script src="./scripts/calculadora.js"></script>
     </div>
   </body>
 </html>
